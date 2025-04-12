@@ -329,7 +329,6 @@ FEATURES
   max-height: 380px;
   transition: all 300ms ease;
   cursor: not-allowed;
-  /* Added after tutorial to maintain image aspect ratio */
   object-fit: contain;
   object-position: left;
 }
@@ -458,6 +457,14 @@ select {
   padding-top: 60px;
   font-size: 60px;
   color: #7342d6;
+}
+
+.books__loading--spinner {
+  display: none !important;
+}
+
+.books__loading .books__loading--spinner {
+  display: block !important;
 }
 
 .fa-spinner {
